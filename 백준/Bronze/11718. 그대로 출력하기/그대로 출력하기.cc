@@ -6,8 +6,7 @@ int main() {
     string str;
     while (true) {
         getline(cin, str);
-        if (str == "")
-            break;
+        if (str == "") break;//point
         cout << str << endl;
     }
     return 0;
